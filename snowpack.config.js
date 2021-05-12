@@ -18,7 +18,22 @@ module.exports = {
     // "bundle": true,
   },
   packageOptions: {
-    /* ... */
+    polyfillNode: true,
+    optimizie: {
+      treeshake: true,
+    },
+    namedExports: [
+      '@mid/driver-okta',
+      '@mid/react-widget/redirect',
+      '@mid/sdk',
+      'react-dnd-cjs',
+      'react-notifications',
+      'redux-dynamic-modules',
+      'redux-dynamic-modules-react',
+      'redux-dynamic-modules-saga',
+      'redux-dynamic-modules-thunk',
+      'powerbi-client-react',
+    ],
   },
   devOptions: {
     /* ... */
