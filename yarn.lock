@@ -3602,6 +3602,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"dom-scroll-into-view@npm:1.0.1":
+  version: 1.0.1
+  resolution: "dom-scroll-into-view@npm:1.0.1"
+  checksum: b2bb6646e7ca409dbeee283d10a698eea264fbb60214aba8293e92076fd0bc2c1c95ca37f004e6958ccd582aaad948809233d1ef86c06a6aadc123b1d619ce5d
+  languageName: node
+  linkType: hard
+
 "dotenv-expand@npm:^5.1.0":
   version: 5.1.0
   resolution: "dotenv-expand@npm:5.1.0"
@@ -5386,7 +5393,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"loose-envify@npm:^1.0.0":
+"loose-envify@npm:^1.0.0, loose-envify@npm:^1.1.0, loose-envify@npm:^1.4.0":
   version: 1.4.0
   resolution: "loose-envify@npm:1.4.0"
   dependencies:
@@ -6367,6 +6374,17 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
+"prop-types@npm:^15.5.10":
+  version: 15.7.2
+  resolution: "prop-types@npm:15.7.2"
+  dependencies:
+    loose-envify: ^1.4.0
+    object-assign: ^4.1.1
+    react-is: ^16.8.1
+  checksum: 5eef82fdda64252c7e75aa5c8cc28a24bbdece0f540adb60ce67c205cf978a5bd56b83e4f269f91c6e4dcfd80b36f2a2dec24d362e278913db2086ca9c6f9430
+  languageName: node
+  linkType: hard
+
 "proxy-from-env@npm:^1.1.0":
   version: 1.1.0
   resolution: "proxy-from-env@npm:1.1.0"
@@ -6476,6 +6494,26 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
+"react-autocomplete@npm:^1.8.1":
+  version: 1.8.1
+  resolution: "react-autocomplete@npm:1.8.1"
+  dependencies:
+    dom-scroll-into-view: 1.0.1
+    prop-types: ^15.5.10
+  peerDependencies:
+    react: ^0.14.7 || ^15.0.0-0 || ^16.0.0-0
+    react-dom: ^0.14.7 || ^15.0.0-0 || ^16.0.0-0
+  checksum: 05ac12e9ba443db4328bcd3353e99b4273cd5ee7316397ce0eea628b931f116561c4a4ff8dc9cd30e9174be3c49890beda522c17b59404728a5d91df04f4035c
+  languageName: node
+  linkType: hard
+
+"react-is@npm:^16.8.1":
+  version: 16.13.1
+  resolution: "react-is@npm:16.13.1"
+  checksum: f7a19ac3496de32ca9ae12aa030f00f14a3d45374f1ceca0af707c831b2a6098ef0d6bdae51bd437b0a306d7f01d4677fcc8de7c0d331eb47ad0f46130e53c5f
+  languageName: node
+  linkType: hard
+
 "react-is@npm:^17.0.1":
   version: 17.0.2
   resolution: "react-is@npm:17.0.2"
@@ -6487,6 +6525,16 @@ fsevents@~2.1.2:
   version: 0.9.0
   resolution: "react-refresh@npm:0.9.0"
   checksum: 6440146176f19402ffb7d66f317e40b1c42c88579b4d439b49021e38be6307c642da3e8732a72e6997b6bb1127db0da92f4aa433da4313ce8ebad0c1efa2ed4a
+  languageName: node
+  linkType: hard
+
+"react@npm:^17.0.2":
+  version: 17.0.2
+  resolution: "react@npm:17.0.2"
+  dependencies:
+    loose-envify: ^1.1.0
+    object-assign: ^4.1.1
+  checksum: b254cc17ce3011788330f7bbf383ab653c6848902d7936a87b09d835d091e3f295f7e9dd1597c6daac5dc80f90e778c8230218ba8ad599f74adcc11e33b9d61b
   languageName: node
   linkType: hard
 
@@ -6806,6 +6854,8 @@ fsevents@~2.1.2:
     array.prototype.flat: ^1.2.4
     chai: ^4.3.4
     prettier: ^2.2.1
+    react: ^17.0.2
+    react-autocomplete: ^1.8.1
     snowpack: ^3.3.7
     typescript: ^4.2.4
   languageName: unknown
@@ -7560,11 +7610,11 @@ typescript@^4.2.4:
 
 "typescript@patch:typescript@^4.2.4#~builtin<compat/typescript>":
   version: 4.2.4
-  resolution: "typescript@patch:typescript@npm%3A4.2.4#~builtin<compat/typescript>::version=4.2.4&hash=34ad7d"
+  resolution: "typescript@patch:typescript@npm%3A4.2.4#~builtin<compat/typescript>::version=4.2.4&hash=ea7f47"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 083de437033ea11e57b0c66305a2c1d6d05e9383e57de2af405b0833ab68bd96d82d1f4f317fac06f3420410a006244648cf70278f58b3b4d55632dc7aeb8d4a
+  checksum: 3d8ac56cd91f6f60e69aff212cb3601c8affd8dd7b3fac115b836b7d59ab8c7b21778635f07971cbcb6035019df1abefe3047c1d46f3d42d087ceb0552af0206
   languageName: node
   linkType: hard
 

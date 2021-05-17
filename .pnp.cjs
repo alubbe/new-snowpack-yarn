@@ -51,8 +51,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["array.prototype.flat", "npm:1.2.4"],
             ["chai", "npm:4.3.4"],
             ["prettier", "npm:2.2.1"],
+            ["react", "npm:17.0.2"],
+            ["react-autocomplete", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:1.8.1"],
             ["snowpack", "npm:3.3.7"],
-            ["typescript", "patch:typescript@npm%3A4.2.4#~builtin<compat/typescript>::version=4.2.4&hash=34ad7d"]
+            ["typescript", "patch:typescript@npm%3A4.2.4#~builtin<compat/typescript>::version=4.2.4&hash=ea7f47"]
           ],
           "linkType": "SOFT",
         }]
@@ -2992,7 +2994,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/plugin-syntax-class-properties", "virtual:354b75db32dd46e3f56f7477687967c1213b46b1fecbed798d631040db2ab3d9d0252290d98ac008137328d1f647586402f58fc88d66c7057016adac633a4f7a#npm:7.12.13"],
             ["@types/react", "npm:17.0.5"],
             ["@types/react-dom", "npm:17.0.3"],
-            ["react", null],
+            ["react", "npm:17.0.2"],
             ["react-dom", null],
             ["react-refresh", "npm:0.9.0"]
           ],
@@ -3035,7 +3037,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/typescript", null],
             ["execa", "npm:5.0.0"],
             ["npm-run-path", "npm:4.0.1"],
-            ["typescript", "patch:typescript@npm%3A4.2.4#~builtin<compat/typescript>::version=4.2.4&hash=34ad7d"]
+            ["typescript", "patch:typescript@npm%3A4.2.4#~builtin<compat/typescript>::version=4.2.4&hash=ea7f47"]
           ],
           "packagePeers": [
             "@types/typescript",
@@ -3103,7 +3105,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@testing-library/dom", "npm:7.30.4"],
             ["@types/react", "npm:17.0.5"],
             ["@types/react-dom", "npm:17.0.3"],
-            ["react", null],
+            ["react", "npm:17.0.2"],
             ["react-dom", null]
           ],
           "packagePeers": [
@@ -5351,6 +5353,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/dom-accessibility-api-npm-0.5.4-dd3e7035e5-1fb22b3519.zip/node_modules/dom-accessibility-api/",
           "packageDependencies": [
             ["dom-accessibility-api", "npm:0.5.4"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["dom-scroll-into-view", [
+        ["npm:1.0.1", {
+          "packageLocation": "./.yarn/cache/dom-scroll-into-view-npm-1.0.1-41302dc703-b2bb6646e7.zip/node_modules/dom-scroll-into-view/",
+          "packageDependencies": [
+            ["dom-scroll-into-view", "npm:1.0.1"]
           ],
           "linkType": "HARD",
         }]
@@ -8444,6 +8455,18 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["prop-types", [
+        ["npm:15.7.2", {
+          "packageLocation": "./.yarn/cache/prop-types-npm-15.7.2-d7a04f2274-5eef82fdda.zip/node_modules/prop-types/",
+          "packageDependencies": [
+            ["prop-types", "npm:15.7.2"],
+            ["loose-envify", "npm:1.4.0"],
+            ["object-assign", "npm:4.1.1"],
+            ["react-is", "npm:16.13.1"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["proxy-from-env", [
         ["npm:1.1.0", {
           "packageLocation": "./.yarn/cache/proxy-from-env-npm-1.1.0-c13d07f26b-ed7fcc2ba0.zip/node_modules/proxy-from-env/",
@@ -8552,6 +8575,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["react", [
+        ["npm:17.0.2", {
+          "packageLocation": "./.yarn/cache/react-npm-17.0.2-99ba37d931-b254cc17ce.zip/node_modules/react/",
+          "packageDependencies": [
+            ["react", "npm:17.0.2"],
+            ["loose-envify", "npm:1.4.0"],
+            ["object-assign", "npm:4.1.1"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["react-app-polyfill", [
         ["npm:1.0.6", {
           "packageLocation": "./.yarn/cache/react-app-polyfill-npm-1.0.6-5783bc24de-d38fb0e5f7.zip/node_modules/react-app-polyfill/",
@@ -8567,7 +8601,42 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["react-autocomplete", [
+        ["npm:1.8.1", {
+          "packageLocation": "./.yarn/cache/react-autocomplete-npm-1.8.1-f5075af95a-05ac12e9ba.zip/node_modules/react-autocomplete/",
+          "packageDependencies": [
+            ["react-autocomplete", "npm:1.8.1"]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:1.8.1", {
+          "packageLocation": "./.yarn/__virtual__/react-autocomplete-virtual-897450d583/0/cache/react-autocomplete-npm-1.8.1-f5075af95a-05ac12e9ba.zip/node_modules/react-autocomplete/",
+          "packageDependencies": [
+            ["react-autocomplete", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:1.8.1"],
+            ["@types/react", "npm:17.0.5"],
+            ["@types/react-dom", "npm:17.0.3"],
+            ["dom-scroll-into-view", "npm:1.0.1"],
+            ["prop-types", "npm:15.7.2"],
+            ["react", "npm:17.0.2"],
+            ["react-dom", null]
+          ],
+          "packagePeers": [
+            "@types/react-dom",
+            "@types/react",
+            "react-dom",
+            "react"
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["react-is", [
+        ["npm:16.13.1", {
+          "packageLocation": "./.yarn/cache/react-is-npm-16.13.1-a9b9382b4f-f7a19ac349.zip/node_modules/react-is/",
+          "packageDependencies": [
+            ["react-is", "npm:16.13.1"]
+          ],
+          "linkType": "HARD",
+        }],
         ["npm:17.0.2", {
           "packageLocation": "./.yarn/cache/react-is-npm-17.0.2-091bbb8db6-9d6d111d89.zip/node_modules/react-is/",
           "packageDependencies": [
@@ -8914,8 +8983,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["array.prototype.flat", "npm:1.2.4"],
             ["chai", "npm:4.3.4"],
             ["prettier", "npm:2.2.1"],
+            ["react", "npm:17.0.2"],
+            ["react-autocomplete", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:1.8.1"],
             ["snowpack", "npm:3.3.7"],
-            ["typescript", "patch:typescript@npm%3A4.2.4#~builtin<compat/typescript>::version=4.2.4&hash=34ad7d"]
+            ["typescript", "patch:typescript@npm%3A4.2.4#~builtin<compat/typescript>::version=4.2.4&hash=ea7f47"]
           ],
           "linkType": "SOFT",
         }]
@@ -9715,10 +9786,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["typescript", [
-        ["patch:typescript@npm%3A4.2.4#~builtin<compat/typescript>::version=4.2.4&hash=34ad7d", {
-          "packageLocation": "./.yarn/cache/typescript-patch-103c97a687-083de43703.zip/node_modules/typescript/",
+        ["patch:typescript@npm%3A4.2.4#~builtin<compat/typescript>::version=4.2.4&hash=ea7f47", {
+          "packageLocation": "./.yarn/cache/typescript-patch-028c4973a8-3d8ac56cd9.zip/node_modules/typescript/",
           "packageDependencies": [
-            ["typescript", "patch:typescript@npm%3A4.2.4#~builtin<compat/typescript>::version=4.2.4&hash=34ad7d"]
+            ["typescript", "patch:typescript@npm%3A4.2.4#~builtin<compat/typescript>::version=4.2.4&hash=ea7f47"]
           ],
           "linkType": "HARD",
         }]
@@ -13591,7 +13662,23 @@ class ZipFS extends BasePortableFakeFS {
 
 
 const ZIP_FD = 0x80000000;
-const FILE_PARTS_REGEX = /.*?(?<!\/)\.zip(?=\/|$)/;
+const DOT_ZIP = `.zip`;
+/**
+ * Extracts the archive part (ending in the first `.zip`) from a path.
+ *
+ * The indexOf-based implementation is ~3.7x faster than a RegExp-based implementation.
+ */
+
+const getArchivePart = path => {
+  const idx = path.indexOf(DOT_ZIP);
+  if (idx <= 0) return null; // Disallow files named ".zip"
+
+  if (path[idx - 1] === ppath.sep) return null;
+  const nextCharIdx = idx + DOT_ZIP.length; // The path either has to end in ".zip" or contain an archive subpath (".zip/...")
+
+  if (path.length > nextCharIdx && path[nextCharIdx] !== ppath.sep) return null;
+  return path.slice(0, nextCharIdx);
+};
 class ZipOpenFS extends BasePortableFakeFS {
   constructor({
     libzip,
@@ -14462,9 +14549,9 @@ class ZipOpenFS extends BasePortableFakeFS {
     let filePath = ``;
 
     while (true) {
-      const parts = FILE_PARTS_REGEX.exec(p.substr(filePath.length));
-      if (!parts) return null;
-      filePath = this.pathUtils.join(filePath, parts[0]);
+      const archivePart = getArchivePart(p.substr(filePath.length));
+      if (!archivePart) return null;
+      filePath = this.pathUtils.join(filePath, archivePart);
 
       if (this.isZip.has(filePath) === false) {
         if (this.notZip.has(filePath)) continue;
@@ -15063,9 +15150,12 @@ function getPathForDisplay(p) {
 function applyPatch(pnpapi, opts) {
   // @ts-expect-error
   const builtinModules = new Set(external_module_.Module.builtinModules || Object.keys(process.binding(`natives`)));
+
+  const isBuiltinModule = request => builtinModules.has(request) || request.startsWith(`node:`);
   /**
    * The cache that will be used for all accesses occurring outside of a PnP context.
    */
+
 
   const defaultCache = {};
   /**
@@ -15106,7 +15196,7 @@ function applyPatch(pnpapi, opts) {
   external_module_.Module._load = function (request, parent, isMain) {
     if (!enableNativeHooks) return originalModuleLoad.call(external_module_.Module, request, parent, isMain); // Builtins are managed by the regular Node loader
 
-    if (builtinModules.has(request)) {
+    if (isBuiltinModule(request)) {
       try {
         enableNativeHooks = false;
         return originalModuleLoad.call(external_module_.Module, request, parent, isMain);
@@ -15179,7 +15269,7 @@ function applyPatch(pnpapi, opts) {
   function getIssuerSpecsFromModule(module) {
     var _a;
 
-    if (module && module.id !== `<repl>` && !module.parent && !module.filename && module.paths.length > 0) {
+    if (module && module.id !== `<repl>` && module.id !== `internal/preload` && !module.parent && !module.filename && module.paths.length > 0) {
       return [{
         apiPath: opts.manager.findApiPathFor(module.paths[0]),
         path: module.paths[0],
@@ -15220,7 +15310,7 @@ function applyPatch(pnpapi, opts) {
   const originalModuleResolveFilename = external_module_.Module._resolveFilename;
 
   external_module_.Module._resolveFilename = function (request, parent, isMain, options) {
-    if (builtinModules.has(request)) return request;
+    if (isBuiltinModule(request)) return request;
     if (!enableNativeHooks) return originalModuleResolveFilename.call(external_module_.Module, request, parent, isMain, options);
 
     if (options && options.plugnplay === false) {
@@ -15576,9 +15666,12 @@ function makeApi(runtimeState, opts) {
   const alwaysWarnOnFallback = Number(process.env.PNP_ALWAYS_WARN_ON_FALLBACK) > 0;
   const debugLevel = Number(process.env.PNP_DEBUG_LEVEL); // @ts-expect-error
 
-  const builtinModules = new Set(external_module_.Module.builtinModules || Object.keys(process.binding(`natives`))); // Splits a require request into its components, or return null if the request is a file path
+  const builtinModules = new Set(external_module_.Module.builtinModules || Object.keys(process.binding(`natives`)));
 
-  const pathRegExp = /^(?![a-zA-Z]:[\\/]|\\\\|\.{0,2}(?:\/|$))((?:@[^/]+\/)?[^/]+)\/*(.*|)$/; // Matches if the path starts with a valid path qualifier (./, ../, /)
+  const isBuiltinModule = request => builtinModules.has(request) || request.startsWith(`node:`); // Splits a require request into its components, or return null if the request is a file path
+
+
+  const pathRegExp = /^(?![a-zA-Z]:[\\/]|\\\\|\.{0,2}(?:\/|$))((?:node:)?(?:@[^/]+\/)?[^/]+)\/*(.*|)$/; // Matches if the path starts with a valid path qualifier (./, ../, /)
   // eslint-disable-next-line no-unused-vars
 
   const isStrictRegExp = /^(\/|\.{1,2}(\/|$))/; // Matches if the path must point to a directory (ie ends with /)
@@ -16055,7 +16148,7 @@ function makeApi(runtimeState, opts) {
     // The 'pnpapi' request is reserved and will always return the path to the PnP file, from everywhere
     if (request === `pnpapi`) return npath.toPortablePath(opts.pnpapiResolution); // Bailout if the request is a native module
 
-    if (considerBuiltins && builtinModules.has(request)) return null;
+    if (considerBuiltins && isBuiltinModule(request)) return null;
     const requestForDisplay = getPathForDisplay(request);
     const issuerForDisplay = issuer && getPathForDisplay(issuer); // We allow disabling the pnp resolution for some subpaths.
     // This is because some projects, often legacy, contain multiple
@@ -16204,7 +16297,7 @@ function makeApi(runtimeState, opts) {
           }
         }
       } else if (dependencyReference === undefined) {
-        if (!considerBuiltins && builtinModules.has(request)) {
+        if (!considerBuiltins && isBuiltinModule(request)) {
           if (isDependencyTreeRoot(issuerLocator)) {
             error = internalTools_makeError(ErrorCode.UNDECLARED_DEPENDENCY, `Your application tried to access ${dependencyName}. While this module is usually interpreted as a Node builtin, your resolver is running inside a non-Node resolution context where such builtins are ignored. Since ${dependencyName} isn't otherwise declared in your dependencies, this makes the require call ambiguous and unsound.\n\nRequired package: ${dependencyName}${dependencyName !== requestForDisplay ? ` (via "${requestForDisplay}")` : ``}\nRequired by: ${issuerForDisplay}\n`, {
               request: requestForDisplay,
@@ -16338,7 +16431,7 @@ function makeApi(runtimeState, opts) {
 
     const isIssuerIgnored = () => issuer !== null ? isPathIgnored(issuer) : false;
 
-    const remappedPath = (!considerBuiltins || !builtinModules.has(request)) && !isIssuerIgnored() ? resolveUnqualifiedExport(request, unqualifiedPath) : unqualifiedPath;
+    const remappedPath = (!considerBuiltins || !isBuiltinModule(request)) && !isIssuerIgnored() ? resolveUnqualifiedExport(request, unqualifiedPath) : unqualifiedPath;
 
     try {
       return resolveUnqualified(remappedPath, {
@@ -16583,7 +16676,7 @@ function makeManager(pnpapi, opts) {
     const stats = opts.fakeFs.statSync(pnpApiPath);
 
     if (stats.mtime > apiEntry.stats.mtime) {
-      console.warn(`[Warning] The runtime detected new informations in a PnP file; reloading the API instance (${npath.fromPortablePath(pnpApiPath)})`);
+      process.emitWarning(`[Warning] The runtime detected new informations in a PnP file; reloading the API instance (${npath.fromPortablePath(pnpApiPath)})`);
       apiEntry.stats = stats;
       apiEntry.instance = loadApiInstance(pnpApiPath);
     }
